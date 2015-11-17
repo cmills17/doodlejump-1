@@ -14,7 +14,7 @@ import javax.swing.*;
 public class GameShell extends Applet implements KeyListener, MouseListener, MouseMotionListener, Runnable {
     // #### MASTER SETTINGS #########################
     // DOODLE BOUNCE VELOCITY (SMALLER (negative) number for higher jumps)
-
+	//test comment
     private int SDV = -9;
     // PLATFORM SCROLL DOWN SPEED (higher number to fall faster)
     private int BSDS = 5;
