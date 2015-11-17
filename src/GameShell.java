@@ -10,7 +10,7 @@ import java.awt.event.MouseMotionListener;
 import javax.sound.sampled.*;
 import java.io.*;
 import javax.swing.*;
-
+//test comment
 public class GameShell extends Applet implements KeyListener, MouseListener, MouseMotionListener, Runnable {
     // #### MASTER SETTINGS #########################
     // DOODLE BOUNCE VELOCITY (SMALLER (negative) number for higher jumps)
@@ -1239,13 +1239,14 @@ public class GameShell extends Applet implements KeyListener, MouseListener, Mou
 
                 break;
             case 38:
-                /*   //up arrow 
+            	//this is for cheating
+                 /*  //up arrow 
                 {
                 Doodle temp = (Doodle) myGuys.get(0);
                 temp.setVelocity(SDV);
                 myGuys.set(0,temp);
-                } */
-
+                } 
+*/
 
                 break;
             case 39:
